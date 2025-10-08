@@ -9,7 +9,7 @@ const together =
     ? new Together({ apiKey: TOGETHER_API_KEY })
     : null;
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://quiz-app-backend-o3i5.onrender.com/api";
 
 export const quizService = {
   async generateQuiz(config: QuizConfig): Promise<Quiz> {
